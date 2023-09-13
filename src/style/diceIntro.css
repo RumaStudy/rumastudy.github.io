@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.stage {
+  margin-top: 3rem;
+  margin-right: 6rem;
+}
+#cube {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation-name: diceRolling;
+  animation-iteration-count: infinite;
+  animation-duration: 30s;
+  transition: ease;
+}
+@keyframes diceRolling {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+#diceFront {
+  transform: translateZ(150px);
+}
+#diceBack {
+  transform: rotateX(180deg) translateZ(150px);
+}
+#diceLeft {
+  transform: rotateY(-90deg) translateZ(150px);
+}
+#diceRight {
+  transform: rotateY(90deg) translateZ(150px);
+}
+#diceUp {
+  transform: rotateX(90deg) translateZ(150px);
+}
+#diceDwn {
+  transform: rotateX(-90deg) translateZ(150px);
+}
+.diceFloor > img {
+  display: auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: contain;
+  object-position: center;
+}
+.introDesc > h1 {
+  animation-name: paraChange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes paraChange {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

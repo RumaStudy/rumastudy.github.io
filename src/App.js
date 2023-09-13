@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useRef } from "react";
+
+/* Static Components */
+import Header from "./components/Static/Header";
+import Footer from "./components/Static/Footer";
+
+/* Variable Components */
+import Main from "./components/Static/Main";
+
+/* Library */
+import GlobalStyle from "./style/GlobalStyle";
 
 function App() {
+  const scrollRef = useRef();
+  const scrollToElement = () => {
+    scrollRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      {/* Header */}
+      <Header />
+      <div className="wrap">
+        <Main />
+      </div>
+      <Footer />
+    </>
   );
 }
 

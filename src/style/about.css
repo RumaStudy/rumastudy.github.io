@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.aboutWrap {
+  width: 100%;
+  padding: 3rem 0;
+}
+.aboutWrap .inner {
+  display: flex;
+  justify-content: space-between;
+}
+.AboutTitle {
+  display: block;
+  width: 700px;
+  padding: 1rem;
+  border: 1px solid #40afff;
+  border-radius: 35px;
+  color: white;
+  background-color: #40afff;
+  margin: 0 auto 3rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}

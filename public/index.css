@@ -1,0 +1,45 @@
+@charset "UTF=8";
+#root:not(:empty) ~ #loading {
+  display: none;
+}
+#loading {
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#loading_circle {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 2rem;
+  animation-name: loading_initialized;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: ease;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+@keyframes loading_initialized {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#loading_para {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 120px));
+  text-align: center;
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: 700;
+}

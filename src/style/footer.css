@@ -1,0 +1,12 @@
+footer > .inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  footer > .inner {
+    width: 100%;
+    margin: 0 1rem;
+  }
+}

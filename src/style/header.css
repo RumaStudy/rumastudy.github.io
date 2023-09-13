@@ -1,0 +1,42 @@
+header .inner {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  padding: 5px;
+}
+#logo > img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+#gnb > ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#gnb > ul > li {
+  display: block;
+  padding: 1rem;
+  transition: 550ms;
+  color: #777;
+  font-weight: 600;
+  cursor: pointer;
+}
+#gnb > ul > li:hover {
+  color: #40afff;
+}
+@media screen and (max-width: 767px) {
+  header .inner {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
