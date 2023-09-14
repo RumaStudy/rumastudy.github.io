@@ -20,6 +20,10 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  color: white;
+  background-color: var(--point-bg);
+}
 a {
   text-decoration: none;
 }

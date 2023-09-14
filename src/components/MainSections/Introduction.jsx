@@ -14,10 +14,32 @@ const Introduction = () => {
     justify-content: space-between;
     flex-direction: column;
     padding: 6.5rem 0;
+    & > * {
+      text-shadow: 2px 2px 5px var(--point-shadow);
+    }
+    & > h1 {
+      font-size: 3.5rem;
+    }
+    & > h5 {
+      font-weight: 300;
+      font-size: 2rem;
+      font-family: GS_L;
+    }
+    & > h3 {
+      font-size: 3rem;
+      font-family: GS_M;
+      font-weight: 600;
+    }
   `;
 
   /* Variable Paragraph */
-  const introPara = ["새로움을 채워가는", "성실하게 노력하는", "함께 성장하는"];
+  const introPara = [
+    "새로움을 채워가는",
+    "한결같이 노력하는",
+    "함께 성장하는",
+    "열정이 가득한",
+    "다양하게 시도하는",
+  ];
   const [introduce, setIntroduce] = useState(
     introPara[Math.floor(Math.random() * introPara.length)]
   );
@@ -25,7 +47,8 @@ const Introduction = () => {
   /* useEffect() */
   useEffect(() => {
     const paraSetter = setInterval(() => {
-      setIntroduce(introPara[Math.floor(Math.random() * introPara.length)]);
+      const randomSelection = Math.floor(Math.random() * introPara.length);
+      setIntroduce(introPara[randomSelection]);
     }, 3000);
     return () => {
       clearInterval(paraSetter);
@@ -36,8 +59,8 @@ const Introduction = () => {
     <IntroDesc className="introDesc">
       {/* 가벼운 텍스트 입력처럼 보이는 introduction */}
       <h1>{introduce} </h1>
-      <h5>신입 개발자</h5>
-      <h3>조승현입니다.</h3>
+      <h5>신입 프론트엔드 개발자</h5>
+      <h3>조승현 입니다.</h3>
     </IntroDesc>
   );
 };

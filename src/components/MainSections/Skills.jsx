@@ -6,16 +6,12 @@ import { styled } from "styled-components";
 import StackList from "./StackList";
 import SkillDesc from "./SkillDesc";
 
-/* CSS */
-import "../../style/skill.css";
-
 const Skills = () => {
   /* Styled-Components */
   const Skilled = styled.section`
     width: 100%;
     padding: 3rem 0;
-    background-color: #ffffff;
-    background: linear-gradient(#eeeeee 1%, #ffffff, #eeeeee 98%);
+    background-color: var(--point-bg);
     & .skillFlex {
       width: 100%;
       height: 100%;
@@ -24,6 +20,7 @@ const Skills = () => {
     }
     & .SkillWrap {
       display: grid;
+      column-gap: 1rem;
       grid-template-columns: repeat(5, auto);
       justify-content: space-between;
       align-items: center;
@@ -38,42 +35,32 @@ const Skills = () => {
     width: 100%;
     padding: 1.5rem;
     border: 1px solid var(--point-color);
-    border-radius: 35px;
+    border-radius: 60px;
     transition: 550ms;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
-    background-color: #fff;
     color: var(--point-color);
-    &:hover {
-      color: white;
-      background-color: var(--point-color);
-    }
-    &.active {
-      color: white;
-      background-color: var(--point-color);
-    }
   `;
   const SkillItems = styled.button`
     width: 90px;
     height: 90px;
     border: none;
-    font-weight: 600;
-    font-size: 1.2rem;
-    text-align: center;
-    color: ${(props) => props.font};
+    border-radius: 30px;
     cursor: pointer;
     transition: 550ms;
     overflow: hidden;
-    background-color: transparent;
+    background-color: white;
     & > img {
-      width: 60%;
-      height: 60%;
+      display: block;
+      width: 50%;
+      height: 50%;
+      margin: auto;
       object-fit: contain;
       object-position: center;
       transition: ease-in-out 550ms;
     }
-    & > img:hover {
+    &:hover > img {
       transform: scale(1.5);
     }
   `;
@@ -84,7 +71,7 @@ const Skills = () => {
   const TabSwitch = (Array) => {
     setSkillTab(Array);
   };
-  const [skillState, setSkillState] = useState(StackList[0]);
+  const [skillState, setSkillState] = useState(StackList[4]);
 
   return (
     <Skilled>
@@ -92,7 +79,7 @@ const Skills = () => {
         <nav id="skillNav">
           <SkillsLists>
             <SkillBtn
-              className={activeSkill[0]}
+              className={`${activeSkill[0]} clay`}
               onClick={() => {
                 TabSwitch(StackList);
                 setActiveSkill(["active", ""]);
@@ -106,6 +93,7 @@ const Skills = () => {
           <ul className="SkillWrap">
             {skillTab.map((item) => (
               <SkillItems
+                className="clay"
                 data-state={item}
                 bg={item.img}
                 data-desc={item.desc}

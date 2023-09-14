@@ -10,28 +10,27 @@ const IntroDice = () => {
     border: 6px solid var(--point-color);
     position: absolute;
     background-color: #fff;
-    box-shadow: inset 0px 0px 35px var(--point-color);
   `;
   const public_env = `${process.env.PUBLIC_URL}img/dice/`;
   return (
     <article className="stage">
       <div id="cube">
-        <DiceFloor id="diceFront" className="diceFloor">
+        <DiceFloor id="diceFront" className="diceFloor clay">
           <img src={`${public_env}1.png`} alt="Dice_Img" />
         </DiceFloor>
-        <DiceFloor id="diceBack" className="diceFloor">
+        <DiceFloor id="diceBack" className="diceFloor clay">
           <img src={`${public_env}3.png`} alt="Dice_Img" />
         </DiceFloor>
-        <DiceFloor id="diceUp" className="diceFloor">
+        <DiceFloor id="diceUp" className="diceFloor clay">
           <img src={`${public_env}2.png`} alt="Dice_Img" />
         </DiceFloor>
-        <DiceFloor id="diceDwn" className="diceFloor">
+        <DiceFloor id="diceDwn" className="diceFloor clay">
           <img src={`${public_env}3.png`} alt="Dice_Img" />
         </DiceFloor>
-        <DiceFloor id="diceLeft" className="diceFloor">
+        <DiceFloor id="diceLeft" className="diceFloor clay">
           <img src={`${public_env}4.png`} alt="Dice_Img" />
         </DiceFloor>
-        <DiceFloor id="diceRight" className="diceFloor">
+        <DiceFloor id="diceRight" className="diceFloor clay">
           <img src={`${public_env}5.png`} alt="Dice_Img" />
         </DiceFloor>
       </div>

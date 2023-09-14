@@ -7,7 +7,8 @@ const Footer = () => {
   const FooterDiv = styled.footer`
     width: 100%;
     height: 60px;
-    box-shadow: 0 -2px 2px rgba(2, 7, 21, 0.35);
+    background-color: var(--point-bg);
+    box-shadow: 0 -2px 2px rgba(255, 255, 255, 0.35);
   `;
   const FooterPara = styled.p`
     color: #888888;
@@ -18,7 +19,7 @@ const Footer = () => {
     <FooterDiv>
       <div className="inner">
         <FooterPara>{"😊"} Special Thanks To All of My Teachers</FooterPara>
-        <FooterPara>{"👍"} This Page Has Been Made By React</FooterPara>
+        <FooterPara>This Page Has Been Made By React {"👍"}</FooterPara>
       </div>
     </FooterDiv>
   );

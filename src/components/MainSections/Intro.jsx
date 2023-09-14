@@ -8,7 +8,8 @@ const Intro = () => {
     width: 100%;
     height: 550px;
     padding: 3.5rem 0;
-    background-color: #40afff;
+    margin: 8rem 0;
+    background-color: var(--point-bg);
     color: white;
     font-weight: 700;
     font-size: 2rem;

@@ -13,12 +13,12 @@ const Header = () => {
   const HeaderDiv = styled.header`
     width: 100%;
     height: 70px;
-    box-shadow: 0 0 5px #020715;
+    box-shadow: 0 0 5px white;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
-    background-color: #fff;
+    background-color: var(--point-bg);
     & #gnb > ul li {
       cursor: pointer;
     }

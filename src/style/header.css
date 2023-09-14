@@ -27,12 +27,12 @@ header .inner {
   display: block;
   padding: 1rem;
   transition: 550ms;
-  color: #777;
+  color: white;
   font-weight: 600;
   cursor: pointer;
 }
 #gnb > ul > li:hover {
-  color: #40afff;
+  color: var(--point-color);
 }
 @media screen and (max-width: 767px) {
   header .inner {
