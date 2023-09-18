@@ -8,6 +8,12 @@ const About = () => {
   const CharCard = styled.div`
     width: 500px;
     height: 500px;
+    transition: ease-in-out 1050ms;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    &:hover {
+      transform: rotateY(360deg);
+    }
     & img {
       width: 100%;
       height: 100%;
@@ -39,7 +45,7 @@ const About = () => {
       <div className="inner">
         <CharCard id="aboutL">
           <img
-            src={`${process.env.PUBLIC_URL}/img/about/example_card.svg`}
+            src={`${process.env.PUBLIC_URL}/img/about/char_card.svg`}
             alt="Char_img"
           />
         </CharCard>

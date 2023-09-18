@@ -8,7 +8,7 @@ import "../../style/header.css";
 /* Library */
 import styled from "styled-components";
 
-const Header = () => {
+const Header = ({ scrollToElement }) => {
   /* Styled-Components */
   const HeaderDiv = styled.header`
     width: 100%;

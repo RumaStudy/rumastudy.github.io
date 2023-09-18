@@ -38,7 +38,7 @@ const Introduction = () => {
     "한결같이 노력하는",
     "함께 성장하는",
     "열정이 가득한",
-    "다양하게 시도하는",
+    "주위에 귀를 기울이는",
   ];
   const [introduce, setIntroduce] = useState(
     introPara[Math.floor(Math.random() * introPara.length)]

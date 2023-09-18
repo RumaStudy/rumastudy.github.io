@@ -20,7 +20,7 @@ function App() {
     <>
       <GlobalStyle />
       {/* Header */}
-      <Header />
+      <Header scrollToElement={scrollToElement} />
       <div className="wrap">
         <Main />
       </div>

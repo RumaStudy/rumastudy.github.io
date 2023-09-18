@@ -4,6 +4,7 @@ import About from "../MainSections/About";
 import Skills from "../MainSections/Skills";
 import Portfolios from "../MainSections/Portfolios";
 import Epilogue from "../MainSections/Epilogue";
+import { useRef } from "react";
 
 const Main = () => {
   return (
