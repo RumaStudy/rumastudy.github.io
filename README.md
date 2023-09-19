@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<a href="https://hits.seeyoufarm.com">
+<img src=""/>
+</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 배포 URL :
 
-## Available Scripts
+## 🙋 프로젝트 소개
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+- 웹 프론트엔드 신입개발자 조승현의 포트폴리오와 기술, 간단한 자기 PR에 대한 사이트입니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📆 개발 기간
 
-### `npm test`
+2023-09-07 ~ 2023-09-19
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## ⏰ 타임라인
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Week  | Date          | 내용                                                                         |
+| ----- | ------------- | ---------------------------------------------------------------------------- |
+| 1주차 | 09.07 ~ 09.11 | · 페이지 구상<br>· 레이아웃 및 와이어 프레임 구성<br>· 색상 및 컴포넌트 구상 |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👬 멤버 구성
 
-### `npm run eject`
+조승현[1인 전체 진행, 프론트엔드]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📚 STACKS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+<h3>Languages</h3>
+<img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>
+<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=React&logoColor=white"/>
+</div>
+<br>
+<div>
+<h3>Plugin & Library</h3>
+<img src="https://img.shields.io/badge/-sass-CC6699?style=flat&logo=Sass&logoColor=white"/>
+<img src="https://img.shields.io/badge/-styledcomponents-DB7093?style=flat&logo=StyledComponents&logoColor=white"/>
+</div>
+<br>
+<div>
+<h3>Version Control System</h3>
+<img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=GitHub&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=Git&logoColor=white"/>
+</div>
+<br>
+<div>
+<h3>Environment</h3>
+<img src="https://img.shields.io/badge/-Windows10-0078D6?style=flat&logo=Windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/-macOS-000000?style=flat&logo=macOS&logoColor=white"/>
+</div>
+<br>
+<div>
+<h3>ETC</h3>
+<img src="https://img.shields.io/badge/-visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/-slack-4A154B?style=flat&logo=slack&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Adobe Photoshop-31A8FF?style=flat&logo=Adobe Photoshop&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Adobe Illustrator-FF9A00?style=flat&logo=Adobe Illustrator&logoColor=white"/>
+</div>
