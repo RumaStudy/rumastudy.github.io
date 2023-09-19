@@ -1,17 +1,10 @@
 <a href="https://hits.seeyoufarm.com">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkhsysr%2F3_TeamProject&count_bg=%23000000&title_bg=%2334C9EE&icon=reverbnation.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false"/>
+<img src=""/>
 </a>
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&text=WEBSITE%20RENEWAL%20PROJECT%20&animation=twinkling&fontSize=20&fontAlignY=33&fontAlign=80&height=250&fontColor=d6ace6&desc=%20WATER%20BOMB&descAlignY=55&descAlign=70&descSize=75&rotate=-6
-)
 
 - 배포 URL :  
 
 ## 🙋 프로젝트 소개
-
-<br>
-
-![logo-orange](https://github.com/khsysr/3_TeamProject/assets/139949169/d6c87cda-6a67-41f7-aaf0-187f7b5b2904)
 
 <br>
 
