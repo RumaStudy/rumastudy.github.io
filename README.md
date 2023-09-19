@@ -62,7 +62,7 @@
 <br>
 <div>
 <h3>ETC</h3>
-<img src="https://img.shields.io/badge/-visualstudio-5C2D91?style=flat&logo=visualstudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/-visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/>
 <img src="https://img.shields.io/badge/-slack-4A154B?style=flat&logo=slack&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Adobe Photoshop-31A8FF?style=flat&logo=Adobe Photoshop&logoColor=white"/>
