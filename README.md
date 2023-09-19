@@ -45,8 +45,8 @@
 <br>
 <div>
 <h3>Plugin & Library</h3>
-<img src="https://img.shields.io/badge/-sass-CC6699?style=flat&logo=sass&logoColor=white"/>
-<img src="https://img.shields.io/badge/-styledcomponents-DB7093?style=flat&logo=styledcomponents&logoColor=white"/>
+<img src="https://img.shields.io/badge/-sass-CC6699?style=flat&logo=Sass&logoColor=white"/>
+<img src="https://img.shields.io/badge/-styledcomponents-DB7093?style=flat&logo=StyledComponents&logoColor=white"/>
 </div>
 <br>
 <div>
