@@ -1,0 +1,30 @@
+[
+  {
+    "name": "한국전력공사",
+    "gitAddress": "https://github.com/RumaStudy/hanjeon_renewel",
+    "publicAddress": "https://rumastudy.github.io/hanjeon_renewel/",
+    "pcImg": "",
+    "mobileImg": ""
+  },
+  {
+    "name": "Class 101+",
+    "gitAddress": "https://github.com/RumaStudy/class101_renewel",
+    "publicAddress": "https://rumastudy.github.io/class101_renewel/",
+    "pcImg": "",
+    "mobileImg": ""
+  },
+  {
+    "name": "Root Looping",
+    "gitAddress": "https://github.com/RumaStudy/rumatodo.github.io",
+    "publicAddress": "https://rumastudy.github.io/rumatodo.github.io/",
+    "pcImg": "",
+    "mobileImg": ""
+  },
+  {
+    "name": "워터밤 2023",
+    "gitAddress": "https://github.com/khsysr/3_TeamProject",
+    "publicAddress": "https://khsysr.github.io/3_TeamProject/",
+    "pcImg": "",
+    "mobileImg": ""
+  }
+]
