@@ -56,11 +56,6 @@
 </div>
 <br>
 <div>
-<h3>Open Source</h3>
-<img src="https://img.shields.io/badge/-Naver-03C75A?style=flat&logo=Naver&logoColor=white"/> 
-</div>
-<br>
-<div>
 <h3>ETC</h3>
 <img src="https://img.shields.io/badge/-Slack-4A154B?style=flat&logo=Slack&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Notion-000000?style=flat&logo=Notion&logoColor=white"/>
