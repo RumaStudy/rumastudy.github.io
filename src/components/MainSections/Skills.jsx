@@ -34,7 +34,6 @@ const Skills = () => {
     display: inline-block;
     width: 100%;
     padding: 1.5rem;
-    border: 1px solid var(--point-color);
     border-radius: 60px;
     transition: 550ms;
     font-size: 3rem;

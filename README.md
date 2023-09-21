@@ -1,4 +1,4 @@
-<a href="https://hits.seeyoufarm.com">
+<a href="https://">
 <img src=""/>
 </a>
 
